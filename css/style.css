@@ -46,6 +46,11 @@ body {
 .decorative-background {
   flex: 0 calc(100% / 3);
   position: relative;
+  height: 100dvh;
+}
+.decorative-background img {
+  object-fit: cover;
+  height: 100%;
 }
 .decorative-background figcaption {
   position: absolute;
