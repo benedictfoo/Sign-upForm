@@ -20,7 +20,9 @@ ul[role="list"] {
   list-style: none;
   padding-inline: 0;
 }
-
+a {
+  color: inherit;
+}
 h1,
 h2,
 h3,
@@ -33,4 +35,21 @@ h5 {
 img {
   display: block;
   max-inline-size: 100%;
+}
+
+/* Body */
+body {
+  display: flex;
+}
+
+/* Decorative Background */
+.decorative-background {
+  flex: 0 calc(100% / 3);
+  position: relative;
+}
+.decorative-background figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: azure;
 }
