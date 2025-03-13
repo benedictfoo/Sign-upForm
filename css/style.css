@@ -45,12 +45,13 @@ body {
 /* Decorative Background */
 .decorative-background {
   flex: 0 calc(100% / 3);
+  height: 100vh;
   position: relative;
-  height: 100dvh;
 }
 .decorative-background img {
+  background: #ccc;
   object-fit: cover;
-  height: 100%;
+  width: 100%;
 }
 .decorative-background figcaption {
   position: absolute;
