@@ -92,18 +92,35 @@ header {
   font-size: 4rem;
 }
 
-/* Main */
-main {
-}
-
 /* Microcopy */
-.microcopy {
-  padding: 1rem 2rem;
-}
+
 .microcopy p {
   font-weight: 500;
   max-width: 52ch;
 }
 .microcopy p + p {
   margin-top: 1rem;
+}
+
+/* Main padding */
+.microcopy,
+form {
+  padding: 1rem 2rem;
+}
+
+/* Form */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+fieldset label {
+  display: block;
+  flex: 0 calc(50%-0.5rem);
+  display: flex;
+  flex-direction: column;
 }
