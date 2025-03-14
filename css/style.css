@@ -42,12 +42,16 @@ body {
   display: flex;
   width: 100%;
 }
-
-/* Decorative Background */
-.decorative-background {
+/* Header */
+header {
+  position: relative;
   flex: 0 calc(100% / 3);
   height: 100vh;
+}
+/* Decorative Background */
+.decorative-background {
   position: relative;
+  height: 100%;
 }
 .decorative-background img {
   background: pink;
@@ -62,6 +66,20 @@ body {
   color: azure;
 }
 
-.not-loaded {
-  /* opacity: 0; */
+/* Brand */
+.brand {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20%;
+}
+.brand-logo {
+  width: 20%;
+  display: inline-block;
+}
+.brand-text {
+  color: white;
+  font-size: 3rem;
 }
