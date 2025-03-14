@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("../fonts/Norse-Bold.woff2"), url("../fonts/Norse-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
 /* Defaults */
 :root {
   line-height: 1.5;
@@ -81,8 +87,9 @@ header {
   display: inline-block;
 }
 .brand-text {
+  font-family: "Norse-bold", serif;
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 /* Main */
