@@ -41,6 +41,7 @@ img {
 body {
   display: flex;
   width: 100%;
+  align-items: center;
 }
 /* Header */
 header {
@@ -82,4 +83,20 @@ header {
 .brand-text {
   color: white;
   font-size: 3rem;
+}
+
+/* Main */
+main {
+}
+
+/* Microcopy */
+.microcopy {
+  padding: 1rem 2rem;
+}
+.microcopy p {
+  font-weight: bold;
+  max-width: 52ch;
+}
+.microcopy p + p {
+  margin-top: 1rem;
 }
