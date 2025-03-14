@@ -101,7 +101,7 @@ main {
   padding: 1rem 2rem;
 }
 .microcopy p {
-  font-weight: bold;
+  font-weight: 500;
   max-width: 52ch;
 }
 .microcopy p + p {
