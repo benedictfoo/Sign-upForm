@@ -48,40 +48,59 @@
         </p>
         <p>You <em>know</em> you want to.</p>
       </div>
-      <form action="">
+      <form action="#" id="form">
         <h1>Let's do this!</h1>
         <fieldset>
           <label for="first-name"
-            >First Name<input id="first-name" name="first-name" type="text"
+            >First Name<input
+              required
+              id="first-name"
+              name="first-name"
+              type="text"
           /></label>
 
           <label for="last-name"
-            >Last Name<input id="last-name" name="last-name" type="text"
+            >Last Name<input
+              required
+              id="last-name"
+              name="last-name"
+              type="text"
           /></label>
 
           <label for="email"
-            >Email<input id="email" name="email" type="email"
+            >Email<input required id="email" name="email" type="email"
           /></label>
 
           <label for="phone-number"
             >Phone Number<input
+              required
               id="phone-number"
               name="phone-number"
               type="tel"
           /></label>
 
           <label for="password"
-            >Password<input id="password" name="password" type="password"
+            >Password<input
+              required
+              title="Minimum length is 8"
+              minlength="8"
+              id="password"
+              name="password"
+              type="password"
           /></label>
 
           <label for="password-confirm"
             >Confirm password<input
+              required
+              title="Minimum length is 8"
+              minlength="8"
               id="password-confirm"
               name="password-confirm"
               type="password"
           /></label>
         </fieldset>
       </form>
+      <button form="form">Create Account</button>
     </main>
   </body>
 </html>
