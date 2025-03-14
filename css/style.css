@@ -159,6 +159,15 @@ fieldset input {
   width: 100%;
   font-size: var(--text-regular);
 }
+fieldset input:invalid {
+  border: 2px solid red;
+}
+fieldset input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
+
+/* Submit */
 button {
   margin-left: 2rem;
   font-size: var(--text-medium);
